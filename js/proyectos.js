@@ -1,6 +1,6 @@
 const contenedor = document.getElementById("lista-proyectos");
 
-fetch("./data/proyectos.json")
+fetch("../data/proyectos.json")
   .then(response => response.json())
   .then(proyectos => {
     proyectos.forEach(p => {
