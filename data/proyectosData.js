@@ -8,5 +8,10 @@ const proyectos = [
     titulo: "AutoPilot",
     descripcion: "Platform for creating and running TypeScript workers in the cloud, directly from the browser.",
     link1: "https://github.com/JuanManuelDeluca/AutoPilot"
+  },
+  {
+    titulo: "Pulse",
+    "descripcion":"A simple uptime monitoring tool. Add URLs and Pulse will ping them every 30 seconds, recording status codes and latency. After two consecutive failures it raises an alert",
+    link1:"https://github.com/JuanManuelDeluca/Pulse.git"
   }
 ];
